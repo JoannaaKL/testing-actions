@@ -3,7 +3,7 @@ on:
     
 jobs:
   hola_world_job:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Run local rituals
